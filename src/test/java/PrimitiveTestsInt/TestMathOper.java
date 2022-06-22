@@ -5,42 +5,70 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class TestMathOper {
-
     MathOperation mathOperation = new MathOperation();
 
     @Test
-    public void checkSum() {
-        Assert.assertTrue(mathOperation.sum(2, 3) == 5);
-        Assert.assertTrue(mathOperation.sum(1, 4) == 5);
-        Assert.assertTrue(mathOperation.sum(5, 4) == 9);
+    public void checkSumPositive() {
+
+        Assert.assertEquals(mathOperation.sum(3, 4), 7);
+    }
+    @Test
+    public void checkSumNegative() {
+
+        Assert.assertNotEquals(mathOperation.sum(5, 4), 10);
+    }
+
+    @Test
+    public void checkMinusPozitive() {
+        Assert.assertEquals(mathOperation.minus(2, 3), -1);
 
     }
 
     @Test
-    public void checkMinus() {
-        Assert.assertTrue(mathOperation.minus(2, 3) == -1);
-        Assert.assertTrue(mathOperation.minus(1, 4) == -3);
-        Assert.assertTrue(mathOperation.minus(5, 4) == 1);
+    public void checkMinusNegative() {
+        Assert.assertNotEquals(mathOperation.minus(1, 4), 3);
+
     }
 
     @Test
-    public void multiply() {
-        Assert.assertTrue(mathOperation.multiply(2, 3) == 6);
-        Assert.assertTrue(mathOperation.multiply(1, 4) == 4);
-        Assert.assertTrue(mathOperation.multiply(5, 4) == 20);
+    public void multiplyPozitive() {
+        Assert.assertEquals(mathOperation.multiply(2, 3), 6);
+
+    }
+    @Test
+    public void multiplyNegative() {
+        Assert.assertNotEquals(mathOperation.multiply(2, 3), 5);
+
     }
 
     @Test
-    public void divide() {
-        Assert.assertTrue(mathOperation.divide(6, 3) == 2);
-        Assert.assertTrue(mathOperation.divide(4, 1) == 4);
-        Assert.assertTrue(mathOperation.divide(20, 4) == 5);
+    public void checkDividePozitive() {
+
+        Assert.assertEquals(mathOperation.divide(6, 3), 2);
+    }
+    @Test
+    public void checkDivideNegative() {
+
+        Assert.assertNotEquals(mathOperation.divide(20, 4), 6);
     }
 
     @Test
-    public void divideOst() {
-       Assert.assertTrue(mathOperation.divideOst(8, 3) == 2);
-       Assert.assertTrue(mathOperation.divideOst(5, 4) == 1);
-       Assert.assertTrue(mathOperation.divideOst(3, 3) == 0);
+    public void divideOstPozit() {
+        Assert.assertEquals(mathOperation.divideOst(8, 3), 2);
+    }
+    @Test
+    public void divideOstNegat() {
+        Assert.assertFalse(mathOperation.divideOst(8, 3) == 1);
+
+    }
+    @Test
+    public void sqearTestPoz() {
+
+        Assert.assertTrue(mathOperation.squareNumber(4)==16);
+    }
+    @Test
+    public void sqearTestNeg() {
+
+        Assert.assertFalse(mathOperation.squareNumber(4)==8);
     }
 }
