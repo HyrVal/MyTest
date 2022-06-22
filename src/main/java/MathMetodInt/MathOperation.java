@@ -20,6 +20,8 @@ public class MathOperation {
 
     public int divideOst(int a, int b) {
         return a % b;
-
+    }
+    public int squareNumber(int a){
+        return a*a;
     }
 }

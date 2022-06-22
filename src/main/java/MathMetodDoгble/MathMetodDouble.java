@@ -1,8 +1,6 @@
-package MathMetodDouble;
+package MathMetodDoгble;
 
 public class MathMetodDouble {
-
-
 //    public class MathOperationDouble {
 
         public double sumDouble(double c, double d) {
