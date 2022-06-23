@@ -17,7 +17,36 @@ public class TestMathOperDouble {
     public void checkSumDoubleNeg() {
 
         Assert.assertFalse(mathMetodDouble.sumDouble(5.4,4.3) == 9.9);
-
     }
 
+    @Test
+    public void checkMinusDoublePoz() {
+
+        Assert.assertTrue(mathMetodDouble.minusDouble(5.4,4.4) == 1.0);
+    }
+    @Test
+    public void checkMinusDoubleNeg() {
+
+        Assert.assertFalse(mathMetodDouble.minusDouble(5.4,4.3) == 1.2);
+    }
+    @Test
+    public void checkMyltiplyDoublePoz() {
+
+        Assert.assertTrue(mathMetodDouble.multiplyDouble(5.4,4.3) == 23.22);
+    }
+    @Test
+    public void checkMyltiplyDoubleNeg() {
+
+        Assert.assertFalse(mathMetodDouble.multiplyDouble(5.4,4.3) == 23.23);
+    }
+    @Test
+    public void checkDivideDoublePoz() {
+
+        Assert.assertTrue(mathMetodDouble.divideDouble(10.0,2.5) == 4.0);
+    }
+    @Test
+    public void checkDivideDoubleNeg() {
+
+        Assert.assertFalse(mathMetodDouble.divideDouble(5.4,4.3) == 1.2);
+    }
 }

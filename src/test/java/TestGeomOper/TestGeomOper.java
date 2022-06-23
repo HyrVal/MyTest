@@ -12,12 +12,22 @@ public class TestGeomOper {
     @Test
     public void checkSquareCirclePos() {
 
-        Assert.assertEquals(geometricOper.doSquareCircle(3),28.26);
+        Assert.assertEquals(geometricOper.areaOfCircle(3),28.26);
     }
     @Test
     public void checkSquareCircleNeg() {
 
-        Assert.assertNotEquals(geometricOper.doSquareCircle(3),28.00);
+        Assert.assertNotEquals(geometricOper.areaOfCircle(3),28.00);
+    }
+    @Test
+    public void checkAreaOfSquare() {
+
+        Assert.assertEquals(geometricOper.areaOfSquare(3),  9);
+    }
+    @Test
+    public void checkAreaOfRectangle() {
+
+        Assert.assertEquals(geometricOper.areaOfRectangle(2, 3),  6);
     }
 }
 
