@@ -9,10 +9,22 @@
         </classes>
     </test>
 
-    <test name = "geomtest">
+    <test name = "mathtestdooble">
         <classes>
-            <class name = "TestGeomOper.TestGeomOper" />
+            <class name = "PrimitiveTestDouble.TestMathOperDouble" />
         </classes>
     </test>
+
+<!--    <test name = "geomtest">-->
+<!--        <classes>-->
+<!--            <class name = "TestGeomOper.TestGeomOper" />-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name = "clicktest">-->
+<!--        <classes>-->
+<!--            <class name = "HeadersTest" />-->
+<!--        </classes>-->
+<!--    </test>-->
 
 </suite>

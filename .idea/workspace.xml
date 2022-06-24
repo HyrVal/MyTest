@@ -5,11 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cddd0af1-6a3c-488b-9562-4faea7918bba" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/GeometryOperation/GeometricOper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GeometryOperation/GeometricOper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PrimitiveTestDouble/TestMathOperDouble.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PrimitiveTestDouble/TestMathOperDouble.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestGeomOper/TestGeomOper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestGeomOper/TestGeomOper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HeadersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HeadersTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestInit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,13 +55,23 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "com.intellij.openapi.externalSystem.service.settings.ExternalSystemGroupConfigurable": "ALL",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.side.proportion": "0.40114942",
     "settings.editor.selected.configurable": "MavenSettings"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.HeadersTest">
+  <component name="RunManager" selected="TestNG.C:/Users/HyreVal/IdeaProjects/TestProj/testng.xml">
+    <configuration name="C:/Users/HyreVal/IdeaProjects/TestProj/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestProjForDjigits" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HeadersTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestProjForDjigits" />
       <option name="PACKAGE_NAME" value="" />
@@ -70,11 +83,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HeadersTest.BrandsCatalogTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HeadersTest.testDelivery" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestProjForDjigits" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="HeadersTest" />
-      <option name="METHOD_NAME" value="BrandsCatalogTest" />
+      <option name="METHOD_NAME" value="testDelivery" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -82,11 +95,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HeadersTest.CookHouse" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HeadersTest.testСertified" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestProjForDjigits" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="HeadersTest" />
-      <option name="METHOD_NAME" value="CookHouse" />
+      <option name="METHOD_NAME" value="testСertified" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -94,24 +107,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HeadersTest.getLanguageUA" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestGeomOper" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestProjForDjigits" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="HeadersTest" />
-      <option name="METHOD_NAME" value="getLanguageUA" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HeadersTest.getgetLanguageUA" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestProjForDjigits" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="HeadersTest" />
-      <option name="METHOD_NAME" value="getgetLanguageUA" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestGeomOper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestGeomOper" />
+      <option name="MAIN_CLASS_NAME" value="TestGeomOper.TestGeomOper" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -120,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/HyreVal/IdeaProjects/TestProj/testng.xml" />
+        <item itemvalue="TestNG.HeadersTest.testDelivery" />
+        <item itemvalue="TestNG.TestGeomOper" />
+        <item itemvalue="TestNG.HeadersTest.testСertified" />
         <item itemvalue="TestNG.HeadersTest" />
-        <item itemvalue="TestNG.HeadersTest.CookHouse" />
-        <item itemvalue="TestNG.HeadersTest.BrandsCatalogTest" />
-        <item itemvalue="TestNG.HeadersTest.getLanguageUA" />
-        <item itemvalue="TestNG.HeadersTest.getgetLanguageUA" />
       </list>
     </recent_temporary>
   </component>
