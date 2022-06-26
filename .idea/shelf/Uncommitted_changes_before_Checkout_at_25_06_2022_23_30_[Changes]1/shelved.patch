@@ -1,0 +1,19 @@
+Index: src/test/java/TestInit.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import io.github.bonigarcia.wdm.WebDriverManager;\r\nimport org.openqa.selenium.WebDriver;\r\nimport org.openqa.selenium.chrome.ChromeDriver;\r\nimport org.testng.annotations.BeforeMethod;\r\n\r\npublic class TestInit {\r\n\r\n        public WebDriver driver;\r\n\r\n        @BeforeMethod\r\n        public void beforMethod (){\r\n            WebDriverManager.chromedriver().setup();\r\n\r\n            driver = new ChromeDriver();\r\n\r\n            driver.manage().window().maximize();\r\n        }\r\n\r\n        public void sleep(int sekonds) {\r\n            try {\r\n                Thread.sleep(sekonds * 1000);\r\n            } catch (InterruptedException e) {\r\n                e.printStackTrace();\r\n            }\r\n        }\r\n\r\n//    @AfterMethod\r\n//    public void afterMethod (){\r\n//        driver.quit();\r\n//    }\r\n}\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/java/TestInit.java b/src/test/java/TestInit.java
+--- a/src/test/java/TestInit.java	
++++ b/src/test/java/TestInit.java	
+@@ -18,7 +18,7 @@
+ 
+         public void sleep(int sekonds) {
+             try {
+-                Thread.sleep(sekonds * 1000);
++                Thread.sleep(sekonds * 100);
+             } catch (InterruptedException e) {
+                 e.printStackTrace();
+             }

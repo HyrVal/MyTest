@@ -21,10 +21,10 @@
 <!--        </classes>-->
 <!--    </test>-->
 
-<!--    <test name = "clicktest">-->
-<!--        <classes>-->
-<!--            <class name = "HeadersTest" />-->
-<!--        </classes>-->
-<!--    </test>-->
+    <test name = "clicktest">
+        <classes>
+            <class name = "HeadersTest" />
+        </classes>
+    </test>
 
 </suite>

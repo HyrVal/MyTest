@@ -10,32 +10,41 @@ public class TestInit {
         public WebDriver driver;
 
         @BeforeMethod
+
+//     for to start manually
         public void beforMethod (){
-            String browser = System.getProperty("browser");
-            if(browser.equals("chrome")){
-                WebDriverManager.chromedriver().setup();
-                driver = new ChromeDriver();
-            }else if(browser.equals("firefox")){
-                WebDriverManager.firefoxdriver().setup();
-                driver = new FirefoxDriver();
-            }else if(browser.equals("edge")){
-                WebDriverManager.edgedriver().setup();
-                driver = new EdgeDriver();
-            }else {
-                WebDriverManager.chromedriver().setup();
-                driver = new ChromeDriver();
-            }
+        WebDriverManager.chromedriver().setup();
+           driver = new ChromeDriver();
+        driver.manage().window().maximize();
 
-//        WebDriverManager.chromedriver().setup();
-//           driver = new ChromeDriver();
-            // mvn -Dbrowser= firefox test
 
-            driver.manage().window().maximize();
+//
+//         for to start of terminal (console)
+//      example:      mvn -Dbrowser= firefox test
+//
+//        public void beforMethod (){
+//            String browser = System.getProperty("browser");
+//            if(browser.equals("chrome")){
+//                WebDriverManager.chromedriver().setup();
+//                driver = new ChromeDriver();
+//            }else if(browser.equals("firefox")){
+//                WebDriverManager.firefoxdriver().setup();
+//                driver = new FirefoxDriver();
+//            }else if(browser.equals("edge")){
+//                WebDriverManager.edgedriver().setup();
+//                driver = new EdgeDriver();
+//            }else {
+//                WebDriverManager.chromedriver().setup();
+//                driver = new ChromeDriver();
+//            }
+
+
+
         }
 
         public void sleep(int sekonds) {
             try {
-                Thread.sleep(sekonds * 1000);
+                Thread.sleep(sekonds * 100);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
@@ -46,4 +55,5 @@ public class TestInit {
 //        driver.quit();
 //    }
 }
+
 

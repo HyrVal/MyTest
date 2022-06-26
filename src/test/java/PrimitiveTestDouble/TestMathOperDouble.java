@@ -50,3 +50,4 @@ public class TestMathOperDouble {
         Assert.assertFalse(mathMetodDouble.divideDouble(5.4,4.3) == 1.2);
     }
 }
+
