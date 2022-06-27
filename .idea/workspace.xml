@@ -5,7 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cddd0af1-6a3c-488b-9562-4faea7918bba" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestGeomOper/TestGeomOper1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HeadersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HeadersTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestGeomOper/TestGeomOper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestInit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +48,9 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/.jdks/openjdk-18/lib/src.zip!/java.base/java/lang/reflect/Method.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -49,6 +60,12 @@
         <option name="useMavenConfig" value="true" />
       </MavenGeneralSettings>
     </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="#JAVA_HOME" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2AsYjEVNdKaI8KpPwLyAtXvrkD2" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -69,10 +86,10 @@
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.40114942&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.runner&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.C:/Users/HyreVal/IdeaProjects/TestProj/testng.xml">
+  <component name="RunManager" selected="TestNG.HeadersTest.testGuarantee">
     <configuration name="C:/Users/HyreVal/IdeaProjects/TestProj/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestProjForDjigits" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
@@ -83,11 +100,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HeadersTest.ibisShopsTrst" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HeadersTest.BrandsCatalogTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestProjForDjigits" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="HeadersTest" />
-      <option name="METHOD_NAME" value="ibisShopsTrst" />
+      <option name="METHOD_NAME" value="BrandsCatalogTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -95,11 +112,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HeadersTest.testDelivery" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HeadersTest.CookHouse" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestProjForDjigits" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="HeadersTest" />
-      <option name="METHOD_NAME" value="testDelivery" />
+      <option name="METHOD_NAME" value="CookHouse" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -107,11 +124,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HeadersTest.testСertified" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HeadersTest.ibisShops" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestProjForDjigits" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="HeadersTest" />
-      <option name="METHOD_NAME" value="testСertified" />
+      <option name="METHOD_NAME" value="ibisShops" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -119,17 +136,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestGeomOper" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HeadersTest.testGuarantee" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestProjForDjigits" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TestGeomOper.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TestGeomOper" />
-      <option name="MAIN_CLASS_NAME" value="TestGeomOper.TestGeomOper" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="HeadersTest" />
+      <option name="METHOD_NAME" value="testGuarantee" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -138,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.HeadersTest.testGuarantee" />
+        <item itemvalue="TestNG.HeadersTest.CookHouse" />
+        <item itemvalue="TestNG.HeadersTest.BrandsCatalogTest" />
+        <item itemvalue="TestNG.HeadersTest.ibisShops" />
         <item itemvalue="TestNG.C:/Users/HyreVal/IdeaProjects/TestProj/testng.xml" />
-        <item itemvalue="TestNG.HeadersTest.ibisShopsTrst" />
-        <item itemvalue="TestNG.HeadersTest.testDelivery" />
-        <item itemvalue="TestNG.TestGeomOper" />
-        <item itemvalue="TestNG.HeadersTest.testСertified" />
       </list>
     </recent_temporary>
   </component>
@@ -167,5 +179,15 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.jdks/openjdk-18/lib/src.zip!/java.base/java/lang/reflect/GenericArrayType.java</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

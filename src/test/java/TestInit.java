@@ -3,28 +3,28 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
 public class TestInit {
 
-        public WebDriver driver;
+    public WebDriver driver;
 
-        @BeforeMethod
+    @BeforeMethod
 
 //     for to start manually
-        public void beforMethod (){
+
+    public void beforMethod() {
         WebDriverManager.chromedriver().setup();
-           driver = new ChromeDriver();
+        driver = new ChromeDriver();
         driver.manage().window().maximize();
 
-
-//
 //         for to start of terminal (console)
 //      example:      mvn -Dbrowser= firefox test
 //
-//        public void beforMethod (){
+//        public void beforMethod1(){
 //            String browser = System.getProperty("browser");
-//            if(browser.equals("chrome")){
+//            if(browser == null){
 //                WebDriverManager.chromedriver().setup();
 //                driver = new ChromeDriver();
 //            }else if(browser.equals("firefox")){
@@ -33,27 +33,24 @@ public class TestInit {
 //            }else if(browser.equals("edge")){
 //                WebDriverManager.edgedriver().setup();
 //                driver = new EdgeDriver();
-//            }else {
+//            }else if (browser.equals("chrome")) {
 //                WebDriverManager.chromedriver().setup();
 //                driver = new ChromeDriver();
 //            }
+    }
 
-
-
+    public void sleep(int sekonds) {
+        try {
+            Thread.sleep(sekonds * 100);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
         }
+    }
 
-        public void sleep(int sekonds) {
-            try {
-                Thread.sleep(sekonds * 100);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-        }
-
-//    @AfterMethod
-//    public void afterMethod (){
-//        driver.quit();
-//    }
+    @AfterMethod
+    public void afterMethod() {
+        driver.quit();
+    }
 }
 
 

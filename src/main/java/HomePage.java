@@ -4,12 +4,14 @@ import org.openqa.selenium.WebElement;
 
 public class HomePage extends BasePage{
     HomePage(WebDriver driver) { super(driver);}
-    public void getsite() {driver.get("https://ibis.net.ua/ua/");}
+    public void getsite() {
+        driver.get("https://ibis.net.ua/ua/");}
 
     public WebElement getAboutLanguage() {
         return driver.findElement(By.xpath("//a[@class='a thdr_currlang']"));
     }
     public WebElement getAboutUs() {
+
         return driver.findElement(By.xpath("//span[@class='ch_menu_id101_link a']"));
     }
 
