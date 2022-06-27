@@ -30,4 +30,3 @@ public class TestGeomOper {
         Assert.assertEquals(geometricOper.areaOfRectangle(2, 3),  6);
     }
 }
-

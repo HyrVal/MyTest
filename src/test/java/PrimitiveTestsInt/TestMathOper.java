@@ -72,3 +72,4 @@ public class TestMathOper {
         Assert.assertFalse(mathOperation.squareNumber(4)==8);
     }
 }
+

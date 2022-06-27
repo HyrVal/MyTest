@@ -25,3 +25,4 @@ public class MathOperation {
         return a*a;
     }
 }
+

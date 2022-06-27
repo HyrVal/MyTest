@@ -1,0 +1,89 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"ALL\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"cddd0af1-6a3c-488b-9562-4faea7918bba\" name=\"Changes\" comment=\"\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/pom.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/pom.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/GeometryOperation/GeometricOper.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/GeometryOperation/GeometricOper.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/test/java/PrimitiveTestDouble/TestMathOperDouble.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/test/java/PrimitiveTestDouble/TestMathOperDouble.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/test/java/TestGeomOper/TestGeomOper.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/test/java/TestGeomOper/TestGeomOper.java\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"MavenImportPreferences\">\r\n    <option name=\"generalSettings\">\r\n      <MavenGeneralSettings>\r\n        <option name=\"useMavenConfig\" value=\"true\" />\r\n      </MavenGeneralSettings>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2AsYjEVNdKaI8KpPwLyAtXvrkD2\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <ConfirmationsSetting value=\"1\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"autoscrollFromSource\" value=\"true\" />\r\n    <option name=\"autoscrollToSource\" value=\"true\" />\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n    <option name=\"showMembers\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"com.intellij.openapi.externalSystem.service.settings.ExternalSystemGroupConfigurable\": \"ALL\",\r\n    \"project.structure.last.edited\": \"Modules\",\r\n    \"project.structure.proportion\": \"0.0\",\r\n    \"project.structure.side.proportion\": \"0.0\",\r\n    \"settings.editor.selected.configurable\": \"MavenSettings\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RunManager\" selected=\"TestNG.HeadersTest\">\r\n    <configuration name=\"HeadersTest\" type=\"TestNG\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"TestProjForDjigits\" />\r\n      <option name=\"PACKAGE_NAME\" value=\"\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"HeadersTest\" />\r\n      <option name=\"TEST_OBJECT\" value=\"CLASS\" />\r\n      <properties />\r\n      <listeners />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"HeadersTest.BrandsCatalogTest\" type=\"TestNG\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"TestProjForDjigits\" />\r\n      <option name=\"PACKAGE_NAME\" value=\"\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"HeadersTest\" />\r\n      <option name=\"METHOD_NAME\" value=\"BrandsCatalogTest\" />\r\n      <option name=\"TEST_OBJECT\" value=\"METHOD\" />\r\n      <properties />\r\n      <listeners />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"HeadersTest.CookHouse\" type=\"TestNG\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"TestProjForDjigits\" />\r\n      <option name=\"PACKAGE_NAME\" value=\"\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"HeadersTest\" />\r\n      <option name=\"METHOD_NAME\" value=\"CookHouse\" />\r\n      <option name=\"TEST_OBJECT\" value=\"METHOD\" />\r\n      <properties />\r\n      <listeners />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"HeadersTest.getLanguageUA\" type=\"TestNG\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"TestProjForDjigits\" />\r\n      <option name=\"PACKAGE_NAME\" value=\"\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"HeadersTest\" />\r\n      <option name=\"METHOD_NAME\" value=\"getLanguageUA\" />\r\n      <option name=\"TEST_OBJECT\" value=\"METHOD\" />\r\n      <properties />\r\n      <listeners />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"HeadersTest.getgetLanguageUA\" type=\"TestNG\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"TestProjForDjigits\" />\r\n      <option name=\"PACKAGE_NAME\" value=\"\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"HeadersTest\" />\r\n      <option name=\"METHOD_NAME\" value=\"getgetLanguageUA\" />\r\n      <option name=\"TEST_OBJECT\" value=\"METHOD\" />\r\n      <properties />\r\n      <listeners />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"TestNG.HeadersTest\" />\r\n        <item itemvalue=\"TestNG.HeadersTest.CookHouse\" />\r\n        <item itemvalue=\"TestNG.HeadersTest.BrandsCatalogTest\" />\r\n        <item itemvalue=\"TestNG.HeadersTest.getLanguageUA\" />\r\n        <item itemvalue=\"TestNG.HeadersTest.getgetLanguageUA\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"cddd0af1-6a3c-488b-9562-4faea7918bba\" name=\"Changes\" comment=\"\" />\r\n      <created>1655799895817</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1655799895817</updated>\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -6,10 +6,7 @@
+   <component name="ChangeListManager">
+     <list default="true" id="cddd0af1-6a3c-488b-9562-4faea7918bba" name="Changes" comment="">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/GeometryOperation/GeometricOper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GeometryOperation/GeometricOper.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/test/java/PrimitiveTestDouble/TestMathOperDouble.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PrimitiveTestDouble/TestMathOperDouble.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/test/java/TestGeomOper/TestGeomOper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestGeomOper/TestGeomOper.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/test/java/TestInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestInit.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -47,18 +44,28 @@
+     <option name="showLibraryContents" value="true" />
+     <option name="showMembers" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "RunOnceActivity.OpenProjectViewOnStart": "true",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "com.intellij.openapi.externalSystem.service.settings.ExternalSystemGroupConfigurable": "ALL",
+-    "project.structure.last.edited": "Modules",
+-    "project.structure.proportion": "0.0",
+-    "project.structure.side.proportion": "0.0",
+-    "settings.editor.selected.configurable": "MavenSettings"
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;com.intellij.openapi.externalSystem.service.settings.ExternalSystemGroupConfigurable&quot;: &quot;ALL&quot;,
++    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
++    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
++    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
++    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
+   }
+-}]]></component>
+-  <component name="RunManager" selected="TestNG.HeadersTest">
++}</component>
++  <component name="RunManager" selected="TestNG.C:/Users/HyreVal/IdeaProjects/TestProj/testng.xml">
++    <configuration name="C:/Users/HyreVal/IdeaProjects/TestProj/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
++      <module name="TestProjForDjigits" />
++      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
++      <option name="TEST_OBJECT" value="SUITE" />
++      <properties />
++      <listeners />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
+     <configuration name="HeadersTest" type="TestNG" temporary="true" nameIsGenerated="true">
+       <module name="TestProjForDjigits" />
+       <option name="PACKAGE_NAME" value="" />
+@@ -106,25 +113,13 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="HeadersTest.getgetLanguageUA" type="TestNG" temporary="true" nameIsGenerated="true">
+-      <module name="TestProjForDjigits" />
+-      <option name="PACKAGE_NAME" value="" />
+-      <option name="MAIN_CLASS_NAME" value="HeadersTest" />
+-      <option name="METHOD_NAME" value="getgetLanguageUA" />
+-      <option name="TEST_OBJECT" value="METHOD" />
+-      <properties />
+-      <listeners />
+-      <method v="2">
+-        <option name="Make" enabled="true" />
+-      </method>
+-    </configuration>
+     <recent_temporary>
+       <list>
++        <item itemvalue="TestNG.C:/Users/HyreVal/IdeaProjects/TestProj/testng.xml" />
+         <item itemvalue="TestNG.HeadersTest" />
+         <item itemvalue="TestNG.HeadersTest.CookHouse" />
+         <item itemvalue="TestNG.HeadersTest.BrandsCatalogTest" />
+         <item itemvalue="TestNG.HeadersTest.getLanguageUA" />
+-        <item itemvalue="TestNG.HeadersTest.getgetLanguageUA" />
+       </list>
+     </recent_temporary>
+   </component>

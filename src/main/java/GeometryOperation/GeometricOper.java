@@ -8,12 +8,13 @@ public class GeometricOper {
           return  3.14 * (radiusR * radiusR);
 
         }
-    public double areaOfSquare(int side) {
+    public int areaOfSquare(int side) {
         return  side * side;
 
     }
-    public double areaOfRectangle(int sideA, int sideB ) {
+    public int areaOfRectangle(int sideA, int sideB ) {
         return  sideA * sideB;
 
     }
 }
+
