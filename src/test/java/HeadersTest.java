@@ -14,11 +14,11 @@ public class HeadersTest extends TestInit {
     }
 
     @Test
-    public void ibisShopsTrst() {
+    public void ibisShops() {
         HomePage hp = new HomePage(driver);
         hp.getsite();
         hp.getAboutUs().click();
-        hp.getIbisShops().click();
+         hp.getIbisShops().click();
 
         Assert.assertTrue(driver.getCurrentUrl().contains("https://ibis.net.ua/ua/shops/"));
     }
